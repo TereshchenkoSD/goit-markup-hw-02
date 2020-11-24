@@ -14,12 +14,10 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
 }
 
 a {
   text-decoration: none;
-  color: var(--secondary-text-color);
 }
 
 address {
@@ -52,6 +50,10 @@ address {
   color: var(--primary-text-color);
 }
 
+.contact-link {
+  color: var(--secondary-text-color);
+}
+
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
@@ -78,5 +80,24 @@ address {
 /* ============END OUR TEAM============= */
 
 /* ============FOOTER================= */
+.footer {
+  background-color: var(--primary-bg-color);
+}
 
+.footer-logo {
+  color: rgba(255, 255, 255, 1);
+}
+
+.address-list-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-color);
+}
 /* ============END FOOTER============= */
