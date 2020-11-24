@@ -7,9 +7,57 @@
   --tertiary-bg-color: rgba(245, 244, 250, 1);
 }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+address {
+  font-style: normal;
+}
+
 /* ============HEADER================= */
+.header {
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+  color: var(--primary-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
 
 /* ============END HEADER============= */
 
