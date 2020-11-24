@@ -43,10 +43,6 @@ address {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
-  color: var(--accent-color);
-}
-
 .navigation-link {
   color: var(--primary-text-color);
 }
@@ -55,6 +51,8 @@ address {
   color: var(--secondary-text-color);
 }
 
+.logo-web,
+.current,
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
@@ -121,11 +119,60 @@ address {
 }
 /* ============END SERVICES============= */
 
-
-
 /* ============OUR TEAM================= */
+.team {
+  background-color: var(--tertiary-bg-color);
+}
+
+.team-list-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-list-subtitle {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
 
 /* ============END OUR TEAM============= */
+
+/* ============PORTFOLIO================= */
+.portfolio {
+  background-color: var(--secondary-bg-color);
+}
+
+.filter-list-btn {
+  color: var(--primary-text-color);
+  background-color: var(--tertiary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-list-btn:hover,
+.filter-list-btn:focus,
+.btn-current {
+  color: var(--tertiary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-card-title {
+
+}
+
+.portfolio-card-subtitle {
+  
+}
+
+/* ============END PORTFOLIO============= */
 
 /* ============FOOTER================= */
 .footer {
