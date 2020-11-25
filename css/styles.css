@@ -117,11 +117,28 @@ address {
 .services {
   background-color: var(--secondary-bg-color);
 }
+.services-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* ============END SERVICES============= */
 
 /* ============OUR TEAM================= */
 .team {
   background-color: var(--tertiary-bg-color);
+}
+
+.team-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list-title {
@@ -166,7 +183,7 @@ address {
 
 .portfolio-card-title {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -174,7 +191,7 @@ address {
 
 .portfolio-card-subtitle {
   color: var(--secondary-text-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
